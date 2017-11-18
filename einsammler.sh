@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# all copies go here into subdirectories by timestamp
+# all files go here into subdirectories by timestamp
 TGT=~/autocopy
 
 ##

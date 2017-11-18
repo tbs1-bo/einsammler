@@ -1,8 +1,8 @@
-# usb autocopy
+# Einsammler
 
 Start the script with a label of the device to be monitored.
 
-    $ ./autocopy MYSTICK
+    $ ./einsammler.sh MYSTICK
 
 Everytime the device is detected, all files of it will be moved to a
 target location and the device will be unmounted afterwards.
