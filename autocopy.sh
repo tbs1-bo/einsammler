@@ -3,12 +3,17 @@
 # all copies go here into subdirectories by timestamp
 TGT=~/autocopy
 
-# Label of the device to be monitored
-LBL=TOSHIBA
-
 ##
 ## end of Configuration
 ##
+
+if [[ -z $1 ]]; then
+    echo "The name of a device label must be given on commandline"
+    exit 1
+fi
+
+# Label of the device to be monitored
+LBL=$1
 
 if [[ ! -e $TGT ]]; then
     echo "$TGT does not exist. Creating it."
