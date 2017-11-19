@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # all files go here into subdirectories by timestamp
-TGT=~/autocopy
+TGT=~/einsammler
 
 ##
 ## end of Configuration
