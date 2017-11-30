@@ -30,7 +30,10 @@ while true; do
 	echo "Creating $TGTDIR"
 	mkdir -p $TGTDIR
 
-	echo "Moving files $MOUNTED_TGT/*"
+	echo "Content of mounted device"
+	find $MOUNTED_TGT
+
+	echo "Moving files"
 	mv -n -v $MOUNTED_TGT/* $TGTDIR
 
 	echo "Unmounting device"
