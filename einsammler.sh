@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # all files go here into subdirectories by timestamp
-TGT=~/einsammler
+TGT=~/eingesammelt
 
 ##
 ## end of Configuration
